@@ -1,0 +1,6 @@
+ctqSc$G4Gr6gn5##
+pythonanywhere, username = mavenvj
+
+ myvenv\Scripts\activate
+
+python manage.py runserver
