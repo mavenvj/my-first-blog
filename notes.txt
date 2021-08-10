@@ -1,8 +1,10 @@
 ctqSc$G4Gr6gn5##
 pythonanywhere, username = mavenvj
 
- myvenv\Scripts\activate
+python -m venv myvenv
+myvenv\Scripts\activate
 
-python manage.py runserver
+(myvenv) ~/djangogirls$ python manage.py runserver
 
 git commit -m "Changed the HTML for the site."
+git push
