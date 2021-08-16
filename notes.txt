@@ -22,3 +22,6 @@ $ git push
 #git command to push to pythonanywhere; use bash in pythonanywhere conolse
 $ cd <your-pythonanywhere-domain>.pythonanywhere.com  #where <your-pythonanywhere-domain> is your user name without angle brackets
 $ git pull
+
+(Interactive):
+(myvenv) ~/djangogirls$ python manage.py shell
