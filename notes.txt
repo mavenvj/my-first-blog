@@ -2,9 +2,23 @@ ctqSc$G4Gr6gn5##
 pythonanywhere, username = mavenvj
 
 python -m venv myvenv
-myvenv\Scripts\activate
+ myvenv\Scripts\activate
 
 (myvenv) ~/djangogirls$ python manage.py runserver
 
 git commit -m "Changed the HTML for the site."
 git push
+
+#General git commands to put code into git rep
+git status
+[...]
+$ git add .
+$ git status
+[...]
+$ git commit -m "Modified templates to display posts from database."
+[...]
+$ git push
+
+#git command to push to pythonanywhere; use bash in pythonanywhere conolse
+$ cd <your-pythonanywhere-domain>.pythonanywhere.com  #where <your-pythonanywhere-domain> is your user name without angle brackets
+$ git pull
