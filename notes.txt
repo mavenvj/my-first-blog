@@ -9,12 +9,12 @@ python -m venv myvenv
 git commit -m "Changed the HTML for the site."
 git push
 
-#General git commands to put code into git rep
-git status
+#General git commands to put code into git repository
+#these are from the command line on your local machine
+#should be in your djangogirls directory
+$git status
 [...]
 $ git add .
-$ git status
-[...]
 $ git commit -m "Modified templates to display posts from database."
 [...]
 $ git push
