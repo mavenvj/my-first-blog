@@ -1,5 +1,6 @@
 ctqSc$G4Gr6gn5##
 pythonanywhere, username = mavenvj
+t  (pythonanywhere mysql password: https://www.pythonanywhere.com/user/mavenvj/databases/)
 
 python -m venv myvenv
  myvenv\Scripts\activate
@@ -25,3 +26,37 @@ $ git pull
 
 (Interactive):
 (myvenv) ~/djangogirls$ python manage.py shell
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'maven$default',
+        'USER': 'mavenvj',
+        'PASSWORD': 'tG3#Dn6zJ9GgJjQK ',
+        'HOST': 'mavenvj.mysql.pythonanywhere-services.com',
+    }
+}
+
+#bash console in pythonanywhere:
+#activate and deactivate virtual environment in pythonanywhere
+(ola.pythonanywhere.com) $ deactivate
+$  which python
+/usr/bin/python
+$  workon <your-pythonanywhere-username>.pythonanywhere.com
+(ola.pythonanywhere.com) $ which python
+
+#links for virtual env for pythonanywhere
+https://help.pythonanywhere.com/pages/VirtualEnvForNewerDjango/
+
+
+
+
+
+
+#local machine: python versions 3.7.3  Django: 2.2.24
+
+
+
+/home/ola/.virtualenvs/ola.pythonanywhere.com/bin/python
+

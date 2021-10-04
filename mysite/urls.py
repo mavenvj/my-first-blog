@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+"""commented out to see if the import error in pythonanywhere can be corrected
 from django.contrib import admin
 from django.urls import path, include
 
@@ -20,3 +21,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls')),
 ]
+"""
+#below added 10/4/21 to correct import error in pythonanywhere apps
+from django.conf.urls import url, include
+ from django.contrib import admin
+ urlpatterns = [
+     url(r'^admin/', admin.site.urls),
+     url('', include('pages.urls')),
+   ]
