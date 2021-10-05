@@ -28,5 +28,5 @@ from django.contrib import admin
 urlpatterns = [
      url(r'^admin/', admin.site.urls),
      #url('', include('pages.urls')),
-     url('', views.homepageview, name='home') #added instead of previous statement to correct import 'pages' error
+     #url('', views.homepageview, name='home') #added instead of previous statement to correct import 'pages' error
 ]
